@@ -6,7 +6,11 @@ This project utilses Terraform with AWS and Pyspark in Databicks to create a del
 ------------
 #### Infrastucture
 
-Install Terraform from: https://developer.hashicorp.com/terraform/install
+Install Terraform: https://developer.hashicorp.com/terraform/install
+
+Install AWS CLI: https://aws.amazon.com/cli/
+
+Set AWS profile access keys.
 
 #### Scripts
 
@@ -16,6 +20,8 @@ Import .ipynb into Databricks.
 ### Usage
 -----
 #### Infrastucture
+
+Update Region and S3 name in dev.tfvars
 
 From ./terraform run the following:
 

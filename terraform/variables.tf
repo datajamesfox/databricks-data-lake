@@ -9,3 +9,9 @@ variable "bucket_name" {
   type        = string
   default     = "dummy"
 }
+
+variable "AWS_profile" {
+  description = "AWS CLI profile name"
+  type        = string
+  default     = "myprofile"
+}
