@@ -2,6 +2,7 @@
 
 This project utilses Terraform with AWS and Pyspark in Databicks to create a delta lake in S3, and process the data in Databricks.
 
+
 ### Installation
 ------------
 #### Infrastucture
@@ -14,14 +15,14 @@ Set AWS profile access keys.
 
 #### Scripts
 
-Import .ipynb into Databricks.
+Import .scriptes/Insurance Process.ipynb into Databricks.
 
 
 ### Usage
 -----
 #### Infrastucture
 
-Update Region and S3 name in dev.tfvars
+Update variables in dev.tfvars
 
 From ./terraform run the following:
 
@@ -42,6 +43,7 @@ Update variables in config section:
     aws_container_name = "bronze/csv/"
     aws_file_name = "insurance_data.csv"
 
+Run all code blocks.
 
 ### Tests
 -----
